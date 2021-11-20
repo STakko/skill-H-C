@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* header */
 header {
   display: flex;
   justify-content: center;
@@ -45,5 +45,32 @@ nav {
 
 a {
   text-decoration: none;
+  color: #fafafa
+}
+/* LoremIpsum */
+.lorem-ipsum {
+  width: 100%;
+  height: 650px;
+  background-image: url("../img/mv.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  width: 1024px;
+  height: 336px;
+  margin: 0 auto auto auto;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 64px;
+  color: #fafafa;
+  margin: 10px;
+}
+
+.container p {
+  font-size:  20px;
   color: #fafafa
 }
