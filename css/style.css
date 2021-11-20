@@ -31,7 +31,7 @@ nav {
 }
 
 .nav-bar {
-  list-style:  none;
+  list-style: none;
   display: flex;
   justify-content: center;
   height: 70px;
@@ -45,7 +45,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: #fafafa
+  color: #fafafa;
 }
 /* LoremIpsum */
 .lorem-ipsum {
@@ -56,7 +56,7 @@ a {
   background-position: center;
 }
 
-.container{
+.lorem-ipsum-container {
   width: 1024px;
   height: 336px;
   margin: 0 auto auto auto;
@@ -64,13 +64,97 @@ a {
   text-align: center;
 }
 
-.container h1 {
+.lorem-ipsum-title {
   font-size: 64px;
   color: #fafafa;
   margin: 10px;
 }
 
-.container p {
-  font-size:  20px;
-  color: #fafafa
+.lorem-ipsum-text {
+  font-size: 20px;
+  color: #fafafa;
+}
+/* Portfolio */
+#port-folio {
+  width: 100%;
+  height: auto;
+  background-color: #eceff1;
+  padding: 90px 0 85px 0;
+}
+
+.port-folio-container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.port-folio-title {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.under-bar{
+  background-color: #ec715f;
+  width: 70px;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.port-folio-text{
+  text-align: center;
+  margin: 25px auto;
+  font-size: 16px;
+  color:#000000;
+}
+
+.img-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 250px;
+}
+
+.image:nth-child(1){
+  background-image: url("../img/sketch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image:nth-child(2){
+margin-left: 10px;
+margin-right: 10px;
+background-image: url("../img/websuku.png");
+background-size: cover;
+background-position: center;
+}
+
+.image:nth-child(3){
+  background-image: url("../img/write.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image:nth-child(4){
+  background-image: url("../img/webcamp.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image:nth-child(5){
+  background-image: url("../img/talk.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.image:nth-child(6){
+  background-image: url("../img/webcamp-mother.png");
+  background-size: cover;
+  background-position: center;
 }
