@@ -252,6 +252,7 @@ background-position: center;
 
 .photo {
   background-image: url(../img/my-icon.jpg);
+  border-radius: 50%;
   width: 250px;
   height: 250px;
   margin: 5px auto;
@@ -269,4 +270,94 @@ background-position: center;
   color: #000000;
   text-align: left;
 }
+/* Contact */
+.contact-view {
+  width: 100%;
+  height: auto;
+}
 
+.contact-container {
+  padding: 90px 0;
+  margin: 0 auto;
+  width: 800px;
+  height: auto;
+}
+
+.contact-text {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-group {
+  width: 800px;
+  height: auto;
+  display: flex;
+}
+
+.contact-left {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+.left-content {
+  width: 200px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.content-link {
+  width: 200px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+}
+
+.contact-right {
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+
+.sns {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: left;
+}
+
+.sns-icon-group {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sns-icon {
+  width: 50px;
+  height: 50px;
+  padding: 0 5px;
+}
+
+.sns-icon:nth-child(2) {
+  margin: 0 15px;
+}
+
+.fa-middle {
+  font-size: 50px;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #ec715f;
+  line-height: 60px;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
+}
